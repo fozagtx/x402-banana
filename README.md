@@ -1,5 +1,7 @@
 # x402 Banana Playground
 
+![nano](./public/nano.jpeg)
+
 > AI-powered image generation platform with autonomous payments using MNEE stablecoin
 
 An innovative platform that enables both humans and AI agents to generate images autonomously by paying with MNEE stablecoin on Ethereum. This project demonstrates programmable money in action, where AI agents can independently transact without human intervention.
