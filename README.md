@@ -1,6 +1,6 @@
 # x402 Banana Playground
 
-![nano](./public/nano.jpeg)
+![nano](public/nano.jpeg)
 
 > AI-powered image generation platform with autonomous payments using MNEE stablecoin
 
