@@ -4,24 +4,24 @@
 
 An innovative platform that enables both humans and AI agents to generate images autonomously by paying with MNEE stablecoin on Ethereum. This project demonstrates programmable money in action, where AI agents can independently transact without human intervention.
 
-## 🚀 Key Features
+## Key Features
 
 ### For Human Users
-- 🎨 AI image generation with optional input images
-- 💳 Wallet-based authentication via Thirdweb
-- 📊 Generation history with IndexedDB
-- 🔄 Image editing and re-prompting
-- 📱 Responsive modern UI
+- AI image generation with optional input images
+- Wallet-based authentication via Thirdweb
+- Generation history with IndexedDB
+- Image editing and re-prompting
+- Responsive modern UI
 
-### For AI Agents (🌟 Main Innovation)
-- 🤖 **RESTful API for autonomous agents**
-- 💰 **MNEE stablecoin payments (0.15 MNEE per generation)**
-- 🔐 **API key authentication system**
-- ✅ **On-chain payment verification**
-- 📈 **Usage tracking and analytics**
-- 🛡️ **Security: Payment replay protection, wallet verification**
+### For AI Agents (Main Innovation)
+- **RESTful API for autonomous agents**
+- **MNEE stablecoin payments (0.15 MNEE per generation)**
+- **API key authentication system**
+- **On-chain payment verification**
+- **Usage tracking and analytics**
+- **Security: Payment replay protection, wallet verification**
 
-## 📊 System Architecture
+## System Architecture
 
 ```mermaid
 graph TB
@@ -66,7 +66,7 @@ graph TB
     style Gemini fill:#9C27B0
 ```
 
-## 💳 Human User Payment Flow
+## Human User Payment Flow
 
 ```mermaid
 sequenceDiagram
@@ -91,7 +91,7 @@ sequenceDiagram
     App->>User: 12. Display image + thinking
 ```
 
-## 🤖 AI Agent Payment Flow
+## AI Agent Payment Flow
 
 ```mermaid
 sequenceDiagram
@@ -125,7 +125,7 @@ sequenceDiagram
     API-->>Agent: 16. Return image + metadata
 ```
 
-## 🔐 API Key Management Flow
+## API Key Management Flow
 
 ```mermaid
 graph LR
@@ -145,7 +145,7 @@ graph LR
     style H fill:#f44336
 ```
 
-## ✅ Payment Verification Process
+## Payment Verification Process
 
 ```mermaid
 flowchart TD
@@ -185,7 +185,7 @@ flowchart TD
     style Reject9 fill:#f44336
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 14, React 19, TailwindCSS, shadcn/ui
 - **Backend**: Next.js API Routes
@@ -194,7 +194,7 @@ flowchart TD
 - **AI**: Google Gemini
 - **Package Manager**: Bun
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js 18+ or Bun
@@ -233,7 +233,7 @@ Visit:
 - Agent dashboard: `http://localhost:3000/agent/dashboard`
 - API docs: `http://localhost:3000/agent/docs`
 
-## 🤖 Agent Integration Example
+## Agent Integration Example
 
 ```typescript
 import { createWalletClient, http, parseUnits } from 'viem'
@@ -291,7 +291,7 @@ async function generateImage(prompt: string) {
 const image = await generateImage('A banana on a skateboard')
 ```
 
-## 🔒 Security Features
+## Security Features
 
 1. **Payment Verification**
    - On-chain transaction validation
@@ -311,7 +311,7 @@ const image = await generateImage('A banana on a skateboard')
    - Per-API-key request limits
    - Usage tracking and analytics
 
-## 📊 Database Schema
+## Database Schema
 
 ### agent_api_keys
 ```sql
@@ -341,7 +341,7 @@ CREATE TABLE agent_payments (
 );
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 ### Generate Image Endpoint
 
@@ -384,14 +384,14 @@ Content-Type: application/json
 - `403 Forbidden`: Wallet mismatch
 - `500 Internal Server Error`: Generation failed
 
-## 🌐 Smart Contract Details
+## Smart Contract Details
 
 - **MNEE Token Address**: `0x8ccedbAe4916b79da7F3F612EfB2EB93A2bFD6cF`
 - **Network**: Ethereum Sepolia Testnet
 - **Token Decimals**: 6
 - **Payment Amount**: 0.15 MNEE per generation
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Support for multiple stablecoins (USDC, USDT)
 - [ ] Bulk generation discounts for agents
@@ -400,22 +400,22 @@ Content-Type: application/json
 - [ ] Multi-chain support (Polygon, Arbitrum)
 - [ ] Agent marketplace for generated images
 
-## 📄 License
+## License
 
 MIT License
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - MNEE Team for the stablecoin infrastructure
 - Thirdweb for wallet integration
 - Google Gemini for AI image generation
 - Supabase for database services
 
-## 📧 Contact
+## Contact
 
 - **GitHub**: https://github.com/fozagtx/x402-banana
 - **Project**: x402 Banana Playground
 
 ---
 
-**Built for MNEE Hackathon 2025** 🍌 🚀
+**Built for MNEE Hackathon 2025**
