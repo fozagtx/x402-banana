@@ -63,7 +63,19 @@ export default {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
+  			},
+  			orb: {
+  				1: '#F5C84C',
+  				2: '#654EEE',
+  				3: '#4FA3FF',
+  				4: '#8EDC65',
+  				5: '#B874F9',
+  				6: '#756EFF'
   			}
+  		},
+  		fontFamily: {
+  			sans: ['var(--font-body)', 'sans-serif'],
+  			serif: ['var(--font-heading)', 'serif'],
   		},
   		keyframes: {
   			'accordion-down': {
